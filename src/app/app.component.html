@@ -1,19 +1,22 @@
-<mat-accordion *ngFor="let curiosity of curiosities">
+<div class="container">
+  <mat-accordion *ngFor="let curiosity of curiosities">
  
-  <mat-expansion-panel (opened)="panelOpenState = true"
-                       (closed)="panelOpenState = false"
-                       *ngFor="let curiosity of curiosities"
-                       >
-    <mat-expansion-panel-header>
-      <mat-panel-title>
-        Self aware panel
-      </mat-panel-title>
-      <mat-panel-description>
-        Currently I am {{panelOpenState ? 'open' : 'closed'}}
-      </mat-panel-description>
-    </mat-expansion-panel-header>
-    <p>{{ curiosity.name }}</p>
-    <img src={{curiosity.img}} />
-  </mat-expansion-panel>
-</mat-accordion>
-<h1>test</h1>
+    <mat-expansion-panel (opened)="panelOpenState = true"
+                         (closed)="panelOpenState = false"
+                         *ngFor="let curiosity of curiosities"
+                         >
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          Self aware panel
+        </mat-panel-title>
+        <mat-panel-description>
+          Currently I am {{panelOpenState ? 'open' : 'closed'}}
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <p>{{ curiosity.name }}</p>
+      <img src={{curiosity.img}} />
+    </mat-expansion-panel>
+  </mat-accordion>
+  
+  
+</div>
