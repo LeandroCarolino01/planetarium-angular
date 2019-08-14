@@ -15,6 +15,7 @@ import {
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ContentComponent } from './components/content/content.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { ContentComponent } from './components/content/content.component';
     BrowserAnimationsModule,
     MatExpansionModule,
     MatInputModule, 
-    FormsModule
+    MatButtonModule,
+    FormsModule, AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

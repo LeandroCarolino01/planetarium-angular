@@ -8,6 +8,8 @@ import { Curiosity } from '../Curiosity';
 })
 export class AppComponent implements OnInit {
   curiosities:Curiosity[];
+  private isButtonVisible = true;
+  
   
 
   ngOnInit(){
