@@ -14,7 +14,6 @@ import {
 } from '@angular/material';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { FooterComponent } from './components/footer/footer.component';
 import { ContentComponent } from './components/content/content.component';
 
 @NgModule({
@@ -22,7 +21,6 @@ import { ContentComponent } from './components/content/content.component';
     AppComponent,
     LandingPageComponent,
     NavbarComponent,
-    FooterComponent,
     ContentComponent
   ],
   imports: [
