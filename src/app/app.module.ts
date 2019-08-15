@@ -16,13 +16,15 @@ import { LandingPageComponent } from './components/landing-page/landing-page.com
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ContentComponent } from './components/content/content.component';
 import { AppRoutingModule } from './app-routing.module';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LandingPageComponent,
     NavbarComponent,
-    ContentComponent
+    ContentComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
