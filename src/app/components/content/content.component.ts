@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Curiosity } from '../../../Curiosity';
+import { CURIOSITIES } from '../../../mock-curiosities';
 
 @Component({
   selector: 'app-content',
@@ -7,30 +7,11 @@ import { Curiosity } from '../../../Curiosity';
   styleUrls: ['./content.component.css']
 })
 export class ContentComponent implements OnInit {
-  curiosities:Curiosity[];
+  curiosities = CURIOSITIES;
   constructor() { }
 
   ngOnInit() {
-    this.curiosities =  [
-      {
-        id:1,
-        name:'first',
-        img:'assets/images/img1.jpg',
-        description: 'another test'
-      },
-      {
-        id:2,
-        name:'first',
-        img:'assets/images/img2.jpg',
-        description: 'another test'
-      },
-      {
-        id:3,
-        name:'first',
-        img:'assets/images/img3.jpg',
-        description: 'another test'
-      }
-    ]
+    
   }
 
 }

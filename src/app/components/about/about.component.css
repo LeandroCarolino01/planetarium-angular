@@ -1,10 +1,18 @@
 .me{
-    width: 400px;
-    height: 350px;
-    margin: 0 auto;
+    width: 250px;
+    height: 260px;
+    /* margin: 0 auto;
     display: block;
     border-radius: 50%;
-    margin-top: 60px;
+    margin-top: 60px; */
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+
 }
 .text{
     text-align:center;
