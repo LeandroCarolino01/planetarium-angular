@@ -1,10 +1,9 @@
-<div class="container">
+<div class="container" *ngFor="let curiosity of curiosities">
  
-  <mat-accordion *ngFor="let curiosity of curiosities">
+  <mat-accordion>
  
     <mat-expansion-panel (opened)="panelOpenState = true"
                          (closed)="panelOpenState = false"
-                         *ngFor="let curiosity of curiosities"
                          >
       <mat-expansion-panel-header>
         <mat-panel-title>
@@ -16,6 +15,7 @@
       </mat-expansion-panel-header>
       <p>{{ curiosity.name }}</p>
       <img src={{curiosity.img}} />
+     
     </mat-expansion-panel>
   </mat-accordion>
 
