@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Curiosity } from '../Curiosity';
+import { Curiosity } from '../models/Curiosity';
 
 @Component({
   selector: 'app-root',

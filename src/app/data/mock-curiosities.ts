@@ -1,4 +1,4 @@
-import { Curiosity } from './Curiosity';
+import { Curiosity } from '../../models/Curiosity';
 
 export const CURIOSITIES: Curiosity[] = [
     {

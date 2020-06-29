@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CURIOSITIES } from '../../../mock-curiosities';
+import { CURIOSITIES } from '../../data/mock-curiosities';
 
 @Component({
   selector: 'app-content',
