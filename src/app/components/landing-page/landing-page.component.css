@@ -1,19 +1,28 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+}
+
+/* .btn-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
 .earth {
     width: 200px;
     height:200px;
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: auto;
+    /* position: fixed;
+    margin-top:200px; */
     overflow: hidden;
     border-radius: 50%;
     box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000;
     
   }
   
-  .earth:after {
+  /* .earth:after {
     position: absolute;
     content: "";
     top: 0;
@@ -23,7 +32,7 @@
     box-shadow: -20px -20px 50px 2px #000 inset;
     border-radius: 50%;
   
-  }
+  } */
   
   .earth > div {
     width: 200%;
