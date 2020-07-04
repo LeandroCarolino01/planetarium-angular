@@ -11,7 +11,7 @@ export const CURIOSITIES: Curiosity[] = [
         id:2,
         name:'first',
         img:'assets/images/img2.jpg',
-        description: 'Astronomers call Jupiter a failed star, but that’s not really an appropriate description. While it is true that, like a star, Jupiter is rich in hydrogen and helium, Jupiter does not have nearly enough mass to trigger a fusion reaction in its core. This is how stars generate energy, by fusing hydrogen atoms together under extreme heat and pressure to create helium, releasing light and heat in the process.'
+        description: 'test'
     },
     {
         id:3,
