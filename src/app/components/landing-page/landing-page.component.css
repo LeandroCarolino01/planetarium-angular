@@ -60,3 +60,7 @@
       transform: translateX(-50%);
     }
   } 
+
+  .landing-btn{
+    margin-bottom: 40px;
+  }

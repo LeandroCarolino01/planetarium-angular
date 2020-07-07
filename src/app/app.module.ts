@@ -7,7 +7,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {  
   MatInputModule, 
   MatButtonModule,
-  MatExpansionModule
+  MatExpansionModule,
+  MatCardModule
 
 } from '@angular/material';
 import { LandingPageComponent } from './components/landing-page/landing-page.component';
@@ -32,6 +33,7 @@ import { AboutComponent } from './components/about/about.component';
     MatExpansionModule,
     MatInputModule, 
     MatButtonModule,
+    MatCardModule,
     FormsModule, AppRoutingModule
   ],
   providers: [],
