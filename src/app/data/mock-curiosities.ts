@@ -19,7 +19,7 @@ export const CURIOSITIES: Curiosity[] = [
         id:3,
         isOpen: false,
         name:'(the red spot) -  The Great Red Spot Has Been Around For A Long Time:',
-        img:'assets/images/img3.jpg',
+        img:'assets/images/img5.jpg',
         description: 'The Great Red Spot on Jupiter is one of its most familiar features. This persistent anticyclonic storm, which is located south of its equator, measures between 24,000 km in diameter and 12–14,000 km in height. As such, it is large enough to contain two or three planets the size of Earth’s diameter. And the spot has been around for at least 350 years, since it was spotted as far back as the 17th century. The Great Red Spot was first identified in 1665 by Italian astronomer Giovanni Cassini. By the 20th century, astronomers began to theorize that it was a storm, one which was created by Jupiter’s turbulent and fast-moving atmosphere. These theories were confirmed by the Voyager 1 mission, which observed the Giant Red Spot up close in March of 1979 during its flyby of the planet. However, it appears to have been shrinking since that time. Based on Cassini’s observations, the size was estimated to be 40,000 km in the 17th century, which was almost twice as large as it is now. Astronomers do not know if or when it will ever disappear entirely, but they are relatively sure that another one will emerge somewhere else on the planet.'
     },
     {
@@ -33,7 +33,7 @@ export const CURIOSITIES: Curiosity[] = [
         id:5,
         isOpen: false,
         name:' (you can see with your own eyes) 10. You Can See Jupiter With Your Own Eyes:',
-        img:'assets/images/img5.jpg',
+        img:'assets/images/img3.jpg',
         description: 'Jupiter is the third brightest object in the Solar System, after Venus and the Moon. Chances are, you saw Jupiter in the sky, and had no idea that’s what you were seeing. And here at Universe Today, we are in the habit of letting readers know when the best opportunities for spotting Jupiter in the night sky are. Chances are, if you see a really bright star high in the sky, then you’re looking at Jupiter. Get your hands on a pair of binoculars, and if you know someone with a telescope, that’s even better. Using even modest magnification, you might even spot small specks of light orbiting it, which are its Galilean Moons. Just think, you’ll be seeing precisely what Galileo did when he gazed at the planet in 1610.'
       },
       {
