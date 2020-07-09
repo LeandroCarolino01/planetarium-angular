@@ -21,6 +21,14 @@
   align-items: center;
 } */
 
+/* .safari-fix{
+ 
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  -khtml-border-radius: 50%;
+} */
+
 .earth {
     width: 200px;
     height:200px;
@@ -32,6 +40,7 @@
     -moz-border-radius: 50%;
     border-radius: 50%;
     -khtml-border-radius: 50%;
+    overflow: hidden;
     /* box-shadow: 0 0 20px 20px #000 inset, 0 0 20px 2px #000; */
     
   }
